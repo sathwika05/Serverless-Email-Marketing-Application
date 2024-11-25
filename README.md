@@ -26,7 +26,7 @@ This guide explains how to set up a process to send emails using AWS S3, SES, an
 1. Open the **SES Console** and set up your environment:
    - Configure a sandbox if you are new.
    - Add and verify an email identity for sending emails.
- ![Step 5](images/5.png)
+![Step 5](images/5.png)
 2. Go to **Identities** under **Configuration** and:
    - Add recipient email addresses (e.g., `example1@gmail.com` and `example2@gmail.com`).
    - Verify these emails by clicking on the link sent to them.
@@ -100,7 +100,7 @@ Replace your-bucket-name and your-verified-email@example.com with your actual bu
 1. Under Execution Role, locate the role associated with your Lambda function (e.g., SendSESEmailToContacts-role-22j4ztrm) and click on it.
 ![Step 22](images/22.png)
 2. This opens the IAM Console. You will see that only CloudWatch permissions are assigned by default.
-   ![Step 24](images/24.png)
+![Step 24](images/24.png)
 4. Create a new IAM policy:
 Go to Policies in the IAM Console and click Create Policy.
 Paste the following JSON into the policy editor:
