@@ -1,4 +1,6 @@
 # Serverless-Email-Marketing-Application
+This guide explains how to set up a process to send emails using AWS S3, SES, and Lambda with a scheduled trigger using EventBridge.
+
 ![Cloud Architecture](images/cloud-architecture.png)
 # Sending Emails Using AWS S3, SES, and Lambda
 
